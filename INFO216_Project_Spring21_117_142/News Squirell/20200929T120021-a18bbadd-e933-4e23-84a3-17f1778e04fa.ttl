@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:a18bbadd-e933-4e23-84a3-17f1778e04fa a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "ABC News"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/ABC_News> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "President"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/President_of_the_United_States> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Donald Trump"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Donald_Trump> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Joe Biden"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Joe_Biden> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/28785486> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "TONIGHT: Former VP Joe Biden and President Donald Trump take the stage for the first presidential debate. Watch live @ABC News coverage at 8/7c. https://t.co/a2vT4F3zCs #Debates2020 https://t.co/hBawoSgvRK"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:00:21+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912294122029056"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/ABC_News> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Donald_Trump> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Joe_Biden> a nhterm:Entity .
+
+<http://dbpedia.org/resource/President_of_the_United_States> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/28785486> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+
