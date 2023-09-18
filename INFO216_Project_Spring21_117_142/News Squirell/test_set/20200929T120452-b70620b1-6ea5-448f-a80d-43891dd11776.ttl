@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:b70620b1-6ea5-448f-a80d-43891dd11776 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "YouTuber"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_YouTubers> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Mumbai"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Mumbai> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/37034483> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "YouTuber Posts Abusive Content Against Women, Arrested By Mumbai Cops https://t.co/iospyMPgsc https://t.co/JTYvWTImEL"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:04:52+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310913430375735296"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/List_of_YouTubers> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Mumbai> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/37034483> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

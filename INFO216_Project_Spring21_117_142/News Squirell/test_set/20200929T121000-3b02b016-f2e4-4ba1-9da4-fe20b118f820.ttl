@@ -1,0 +1,23 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:3b02b016-f2e4-4ba1-9da4-fe20b118f820 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "torture"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Torture> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/16887175> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Banaz Mahmod's horrifying two hour rape and torture ordeal before she was killed https://t.co/ktgVhrQ3Y7 https://t.co/ihXvanF1Sc"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:10:00+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310914723026808833"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Torture> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/16887175> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

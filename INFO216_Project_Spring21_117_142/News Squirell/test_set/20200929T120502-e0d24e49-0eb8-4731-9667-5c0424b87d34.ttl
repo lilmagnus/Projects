@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:e0d24e49-0eb8-4731-9667-5c0424b87d34 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "5G"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/5G> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Nokia"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Nokia> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "BT"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/BT_Group> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "radio"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Radio> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/1652541> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Nokia wins 5G radio equipment contract from Britain's BT https://t.co/rCHK0801G3 https://t.co/nkBnwsVWkT"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:05:02+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310913473438781440"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/5G> a nhterm:Entity .
+
+<http://dbpedia.org/resource/BT_Group> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Nokia> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Radio> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/1652541> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

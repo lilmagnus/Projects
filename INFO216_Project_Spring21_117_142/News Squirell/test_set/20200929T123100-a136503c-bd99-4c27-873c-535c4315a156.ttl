@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:a136503c-bd99-4c27-873c-535c4315a156 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "Beaver Scouts"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Beavers_(Scouting)> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "London"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/London> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/15754281> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Duchess Kate joined Cub and Beaver Scouts in outdoor activities during a visit to a London Scouts group Tuesday. https://t.co/CmmQxM87ZI"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:31:00+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310920009280106498"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Beavers_(Scouting)> a nhterm:Entity .
+
+<http://dbpedia.org/resource/London> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/15754281> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

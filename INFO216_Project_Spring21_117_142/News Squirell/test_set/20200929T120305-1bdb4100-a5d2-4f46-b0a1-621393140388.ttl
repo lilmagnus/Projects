@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:1bdb4100-a5d2-4f46-b0a1-621393140388 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "CEO"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Chief_executive_officer> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "balance sheet"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Balance_sheet> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Continental Airlines"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Continental_Airlines> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/404422077> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "\"To the extent that my balance sheet would let me do it, I certainly would refuse\" government aid, says former Continental Airlines CEO Gordon Bethune if he were still running an airline. \"It's just too constraining to take the loans.\" https://t.co/J6V0clRwAj"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:03:05+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912983564943365"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Balance_sheet> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Chief_executive_officer> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Continental_Airlines> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/404422077> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

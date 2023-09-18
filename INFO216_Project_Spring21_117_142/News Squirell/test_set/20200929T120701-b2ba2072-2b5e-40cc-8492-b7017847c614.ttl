@@ -1,0 +1,310 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:b2ba2072-2b5e-40cc-8492-b7017847c614 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "rape"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Rape> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "United Nations"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "powerless"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Powerless_(TV_series)> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "immunity"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Legal_immunity> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "chamber"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Room> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Swiss"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Switzerland> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "VICE"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Vice_News> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Stockholm Syndrome"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Stockholm_syndrome> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "rape"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Rape> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "United Nations"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "United Nations"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "international"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/International_law> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "General"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/General_officer> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "United Nations"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "The psychologist"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/British_Psychological_Society> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "diplomatic immunity"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Diplomatic_immunity> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "watershed"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Drainage_divide> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Nassau County, New York"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Nassau_County,_New_York> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "WhatsApp"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/WhatsApp> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "psychologist"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Psychiatrist> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Swiss"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Switzerland> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Greta"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Emir"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Emir> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Geneva"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Geneva> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UN"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Nations> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "immunity"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Legal_immunity> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "rape"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Rape> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#Dipo%20Faloyin>,
+        <https://newshunter.uib.no/resource/unresolved#James%20Walker> ;
+    nhterm:inCollection <http://www.wikidata.org/entity/Q45432> ;
+    nhterm:originalText "Emir was more senior than her at the United Nations specialised agency they worked at, and she was afraid of how he would react the next day at work if she ignored him. Emir, who was older than Greta and married, told her that he wanted to discuss divorcing his wife. He added that he didn’t feel well and needed to talk to her in person about his feelings for her. In May 2017, Greta* arrived back at her Geneva apartment from a shopping trip to find over a dozen messages and missed calls from Emir, her former boss. Greta was conflicted and confused. What had started out as a friendship at the start of the year had become progressively more toxic. Afterwards, Greta felt empty and violated. “I’m feeling better but I’m still sick and need your support,” Emir told her, “If you start hating me, it will kill me.” When Emir arrived at the house that Greta shared with her landlady, they went down into her basement bedroom to talk about the situation. But Emir started pushing her, moving his hands to take off her dress. “I can’t do it,” Greta told him, “you know I can’t do it.” Greta pushed his hands away. She heard the threads of her dress crack as he tried to pull it off. “I can’t do it,” Greta repeated, “I can’t do it.” She felt hysterical and desperate but still he continued. The past few months had been extremely disorienting and stressful for Greta. It wasn’t long after she joined this UN agency that she realised it was a poisonous place to work. An authoritative internal report described it at the time as beset by “rumour” and “sabotage”, warning senior staff that performance appraisals shouldn’t be used as “a weapon”. Greta was bullied from day one, although it got worse at the start of 2017. It was then that she went to her then direct supervisor, Emir, to complain. From there, he started showing an unhealthy interest in her. At first, she rejected Emir’s advances but, under pressure and constant harassment for several months, she had started to reciprocate some of his feelings, although nothing physical ever happened. Greta felt powerless, confused and suffered from constant migraines and suicidal thoughts. A couple of days later, she went to see a psychologist. “It’s probably my fault,” Greta told her. “Maybe I provoked his interest somehow. It can’t be rape because nobody was beating me.” The psychologist explained that Greta showed symptoms of trauma bonding, also known as Stockholm Syndrome. Greta went back to work just days later. She had since completely stopped talking with Emir on WhatsApp. Seeing him walking through the office corridors as if nothing had happened was extremely painful. It was made worse when Emir informed her a week later that there was an anonymous complaint against her for “unauthorised outside activity” – referring to some consultancy work she had done for another UN agency in her free time that Greta had disclosed to him a month before. Emir told her that an official investigation was about to get underway and suggested that she resign to save her reputation. Greta was convinced that Emir had made the complaint, something he denies. Greta found the idea of going to the police too daunting. She was still processing what had just happened and prioritised her increasingly fragile mental state. In any case, as a senior UN staff member, Emir benefits from a form of diplomatic immunity and is therefore exempt from Swiss national laws. This immunity isn’t meant to protect UN employees from prosecution for sexual crimes, something the UN and its agencies reiterate. But it does make it harder. Instead of starting a case immediately, the Swiss authorities need to ask the permission of the Director General of Greta’s UN specialised agency, who can determine whether the immunity applies after considering the circumstances of her case. Greta filed an internal complaint against Emir alleging rape, harassment and abuse of power. Little did she know that this would lead towards a lengthy and painful closed-door investigation where her legitimacy as a victim of harassment as well as a rape survivor would be determined by two separate risk consultancy firms on her employer’s payroll, according to documents seen by VICE. Immunity is the result of a United Nations convention dating back to its very founding. It was on the 26th of June, 1947, that US Secretary of State George C. Marshall arrived at the United Nations’ first ever headquarters – a concrete annex to a factory they shared with a weapons manufacturer in Nassau County, New York. Marshall then made his way into the green-carpeted chamber of the Economic and Social Council and signed the Convention on the Privileges and Immunities of the United Nations – a watershed moment for the fledgling international organisation."^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:07:01+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://www.vice.com/en_us/article/dyzm5j/functional-immunity-the-complicated-path-to-justice-for-sexual-assault-survivors-at-the-un"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/British_Psychological_Society> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Diplomatic_immunity> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Drainage_divide> a nhterm:Entity .
+
+<http://dbpedia.org/resource/General_officer> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Geneva> a nhterm:Entity .
+
+<http://dbpedia.org/resource/International_law> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Nassau_County,_New_York> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Powerless_(TV_series)> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Psychiatrist> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Room> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Stockholm_syndrome> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Vice_News> a nhterm:Entity .
+
+<http://dbpedia.org/resource/WhatsApp> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#Dipo%20Faloyin> a foaf:Person .
+
+<https://newshunter.uib.no/resource/unresolved#James%20Walker> a foaf:Person .
+
+<http://dbpedia.org/resource/Legal_immunity> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Switzerland> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Rape> a nhterm:Entity .
+
+<http://dbpedia.org/resource/United_Nations> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Emir> a nhterm:Entity .
+
+<http://dbpedia.org/resource/List_of_one-time_The_Simpsons_characters> a nhterm:Entity .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

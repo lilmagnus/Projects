@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:708b5faa-a709-4671-9eee-9b11e57fa02b a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "Boris Johnson"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Boris_Johnson> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "curfew"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Curfew> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/20678866> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Boris Johnson has stood by the 10pm hospitality curfew despite calls for an urgent review - latest https://t.co/ceFUjj9W52"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:01:50+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912667935223813"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Boris_Johnson> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Curfew> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/20678866> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:3af099e4-3c02-4f4d-9ba4-b2741f2a52d9 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "India"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/India> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "national flag"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/National_flag> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "prayer beads"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Misbaha> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/14293310> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText ".@RanaAyyub on Bilkis: \"With prayer beads in one hand and the national flag in the other, Bilkis became the voice of the marginalized in India\" #TIME100 https://t.co/X5lMXVVBxv"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:01:35+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912604659998727"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/India> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Misbaha> a nhterm:Entity .
+
+<http://dbpedia.org/resource/National_flag> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/14293310> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

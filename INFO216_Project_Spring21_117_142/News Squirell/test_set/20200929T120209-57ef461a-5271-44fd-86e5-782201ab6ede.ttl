@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:57ef461a-5271-44fd-86e5-782201ab6ede a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "x-rated"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/X_rating> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "stripper"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Striptease> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "church"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Catholic_Church> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/16887175> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Pastor quits church to become a stripper and now sells x-rated pics and videos online https://t.co/5NTavtCWpK https://t.co/sf78JJLoNb"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:02:09+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912747610288128"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Catholic_Church> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Striptease> a nhterm:Entity .
+
+<http://dbpedia.org/resource/X_rating> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/16887175> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

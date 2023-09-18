@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:9499cd86-a8d2-47d1-bc06-d13cbd2daaf0 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "Christmas"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Christmas> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Boris Johnson"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Boris_Johnson> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#Andrew%20Sparrow> ;
+    nhterm:inCollection <http://www.wikidata.org/entity/Q45432> ;
+    nhterm:originalText "Boris Johnson struggles to explain new restrictions; Williamson says students can go home for Christmas – but might have to self-isolate first"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:05:09+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://www.theguardian.com/politics/live/2020/sep/29/uk-coronavirus-news-boris-johnson-announcement-latest-local-lockdown-covid-19-live-updates"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Boris_Johnson> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Christmas> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#Andrew%20Sparrow> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

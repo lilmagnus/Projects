@@ -1,0 +1,47 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:4c290cb3-4dc0-4e4d-ae14-1c96652357d8 a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "coronavirus"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Coronavirus> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "John Mackey"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/John_Mackey_(American_football)> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Whole Foods"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Whole_Foods_Market> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "CEO"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Chief_executive_officer> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "pandemic"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Pandemic> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/34713362> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Whole Foods CEO John Mackey on the coronavirus pandemic and the Amazon merger https://t.co/YPBUpZaIzf via @BW"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:08:06+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310914246671245326"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Chief_executive_officer> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Coronavirus> a nhterm:Entity .
+
+<http://dbpedia.org/resource/John_Mackey_(American_football)> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Pandemic> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Whole_Foods_Market> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/34713362> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

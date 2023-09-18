@@ -1,0 +1,29 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:4af3c224-04b9-4897-a7cb-5748ee10eabc a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "AFP"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Agence_France-Presse> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Mexican"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Mexicans> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/868112707> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Mexican police clash with pro-abortion protesters #AFP https://t.co/1CDtZYV8hz 📸 @estrellafoto https://t.co/XyQ6TUIUs0"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:00:01+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912212496769031"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Agence_France-Presse> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Mexicans> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/868112707> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+

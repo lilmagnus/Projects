@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nh: <https://newshunter.uib.no/resource#> .
+@prefix nhterm: <https://newshunter.uib.no/term#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nh:fa73415e-ecf9-4b92-978a-4ca598522d6c a nhterm:Item ;
+    nhterm:hasAnnotation [ a nhterm:Annotation ;
+            nhterm:anchorOf "genocide"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Genocide> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Chinese"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Chinese_language> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "UK"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/United_Kingdom> ],
+        [ a nhterm:Annotation ;
+            nhterm:anchorOf "Uighurs"^^xsd:string ;
+            nhterm:hasAnnotator <https://www.wikidata.org/wiki/Q276902> ;
+            nhterm:hasEntity <http://dbpedia.org/resource/Uyghurs> ] ;
+    nhterm:hasContributor <https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/788524> ;
+    nhterm:inCollection <https://www.wikidata.org/entity/Q918> ;
+    nhterm:originalText "Chinese Uighurs could be allowed to seek genocide ruling in UK https://t.co/5sAc7T8avu"^^xsd:string ;
+    nhterm:sourceDateTime "2020-09-29T12:01:52+00:00"^^xsd:dateTime ;
+    nhterm:sourceIRL "https://twitter.com/i/status/1310912677921927168"^^xsd:anyURI .
+
+<http://dbpedia.org/resource/Chinese_language> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Genocide> a nhterm:Entity .
+
+<http://dbpedia.org/resource/United_Kingdom> a nhterm:Entity .
+
+<http://dbpedia.org/resource/Uyghurs> a nhterm:Entity .
+
+<https://newshunter.uib.no/resource/unresolved#https%3A//twitter.com/i/user/788524> a foaf:Person .
+
+<https://www.wikidata.org/wiki/Q276902> a nhterm:Agent .
+
+
